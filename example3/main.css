@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 4em;
+  background-color: rgba(0,0,0,0.6);
+  color: rgba(255,255,255, 0.9);
+}
+
+#header p {
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header > .fps-counter {
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+canvas#webgl {
+  width: 600px;
+  height: 600px;
+}

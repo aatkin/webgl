@@ -1,0 +1,17 @@
+{
+  "name": "webgl-prese",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 --cors"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-defaults": "^9.0.0",
+    "http-server": "^0.11.1",
+    "prettier": "^1.16.4"
+  }
+}
