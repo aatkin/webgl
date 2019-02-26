@@ -38,8 +38,8 @@ const drawTriangle = reglCommand({
   count: 3
 });
 
-regl.frame(({ time }) => {
-  perf.update(time);
+regl.frame(() => {
+  perf.update();
   regl.clear({
     color: [0, 0, 0, 1]
   });
